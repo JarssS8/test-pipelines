@@ -25,7 +25,7 @@ definitions:
 
 pipelines:
   branches:
-    main:
+    master:
       - step: *push-current-branch
     develop:
       - step: *push-current-branch
