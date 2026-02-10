@@ -21,7 +21,7 @@ definitions:
           - git checkout $BITBUCKET_BRANCH
 
           # Push ONLY this branch to GitHub
-          - git push git@github.com:JarssS8/test-pipelines.git $BITBUCKET_BRANCH
+          - git push $MIRROR_REPO_GITHUB $BITBUCKET_BRANCH
 
 pipelines:
   branches:
